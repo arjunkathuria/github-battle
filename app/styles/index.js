@@ -1,6 +1,9 @@
 let styles = {
   transparentBg: {
-    'background': 'none'
+    background: 'none'
+  },
+  space: {
+    marginTop: '25px'
   }
 }
 
