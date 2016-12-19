@@ -1,6 +1,6 @@
 let React = require('react');
 let ReactRouter = require('react-router');
-let {Router, Route, IndexRoute, hashHistory} = ReactRouter
+let { Router, Route, IndexRoute, hashHistory } = ReactRouter
 let Main = require('../components/Main');
 let Home = require('../components/Home');
 let PromptContainer = require('../containers/PromptContainer');
