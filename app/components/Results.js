@@ -6,6 +6,7 @@ let UserDetailsWrapper = require('./UserDetailsWrapper');
 let ReactRouter = require('react-router');
 let { Link } = ReactRouter
 let MainContainer = require('./MainContainer');
+let Loading = require('./Loading');
 
 function StartOver() {
   return (
@@ -20,7 +21,7 @@ function StartOver() {
 function Results(props) {
   if (props.isLoading === true) {
     return (
-      <p>LOADING...</p>
+      <Loading text='Almost Done' speed={200}/>
     )
   }
 
@@ -58,4 +59,4 @@ Results.propTypes = {
   playersInfo: PropTypes.array.isRequired
 }
 
-module.exports = Results;
+module.exports = Results
