@@ -10,7 +10,7 @@ function Prompt(props) {
       <MainContainer>
         <h1>{props.header}</h1>
 
-        <div className="col-sm-12">
+        <div className="col-sm-8 col-sm-offset-2">
           <form onSubmit={props.onSubmitUser}>
             <div className="form-group">
               <input
