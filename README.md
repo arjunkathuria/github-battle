@@ -4,7 +4,11 @@
 Github stat based scores to decide winner between 2 users
 
 Javascript, React Js · Compare 2 github users based on metrics (followers and stars on repos) and see who'll win in a github battle showdown, implemented in ReactJS with React Router for routing, axios promises, github API and transition animations ; )
-
+#### Live Deployment.
+The App is deployed `live` and can be accessed at :-
+```
+https://arjun-github-battle.surge.sh
+```
 #### How to use:-
 - clone this repository
 - npm install
